@@ -8,7 +8,6 @@ class Product {
     private $quantity;
     private $createdAt;
     private $updatedAt;
-    private $category_id; 
 
     public function __construct($id, $name, $photos, $price, $description, $quantity, $createdAt, $updatedAt, $category_id) {
         $this->id = $id;
