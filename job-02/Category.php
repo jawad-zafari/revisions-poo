@@ -27,6 +27,22 @@ class Category {
     public function setUpdatedAt($updatedAt) {
         $this->updatedAt = $updatedAt;
     }
+    // Getters
+    public function getId() {
+        return $this->id;
+    }
+    public function getName() {
+        return $this->name;
+    }
+    public function getDescription() {
+        return $this->description;
+    }
+    public function getCreatedAt() {
+        return $this->createdAt;
+    }
+    public function getUpdatedAt() {
+        return $this->updatedAt;
+    }
    
 }
 ?>
