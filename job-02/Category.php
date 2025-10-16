@@ -12,6 +12,21 @@ class Category {
         $this->createdAt = $createdAt;
         $this->updatedAt = $updatedAt;
     }
+    public function setId($id) {
+        $this->id = $id;
+    }
+    public function setName($name) {
+        $this->name = $name;
+    }
+    public function setDescription($description) {
+        $this->description = $description;
+    }
+    public function setCreatedAt($createdAt) {
+        $this->createdAt = $createdAt;
+    }
+    public function setUpdatedAt($updatedAt) {
+        $this->updatedAt = $updatedAt;
+    }
    
 }
 ?>
